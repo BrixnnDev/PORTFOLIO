@@ -22,7 +22,7 @@ const projects = [
     description: 'Tienda en linea de productos con carrito de compras, filtros por categorias, buscador y diseño moderno responsivo.',
     tags: ['React', 'Tailwind', 'Vite'],
     github: '#',
-    demo: 'https://bxzar.netlify.app/',
+    demo: 'https://bxzar.vercel.app/',
     images: ['/images/Bazar/Bazar.png', '/images/Bazar/Bazar1.png'],
     featured: true,
     info: {
