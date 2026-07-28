@@ -99,19 +99,19 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <a
-              href="#proyectos"
+            <button
+              onClick={() => document.getElementById('proyectos')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 bg-primary text-white rounded-xl font-semibold hover:bg-primary-dark transition-all hover:shadow-red-glow flex items-center justify-center gap-2 group"
             >
               Ver Proyectos
               <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
-            </a>
-            <a
-              href="#contacto"
+            </button>
+            <button
+              onClick={() => document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 glass glass-hover rounded-xl font-semibold text-light-text transition-all flex items-center justify-center gap-2"
             >
               Contactame
-            </a>
+            </button>
           </div>
 
           {/* Stats */}
