@@ -18,6 +18,22 @@ const techIcons = {
 
 const projects = [
   {
+    title: 'DX7',
+    description: 'Pagina oficial del clan DX7 de Free Fire, con informacion del clan, jugadores destacados, video de presentacion y red social oficial.',
+    tags: ['React', 'Tailwind', 'Vite'],
+    github: '#',
+    demo: 'https://dx7.vercel.app/',
+    images: ['/images/Dx7/DX7-1.png', '/images/Dx7/DX7-2.png', '/images/Dx7/DX7-3.png'],
+    featured: true,
+    info: {
+      objective: 'Crear la pagina oficial del clan DX7 de Free Fire para mostrar la identidad del clan, sus jugadores y contenido promocional.',
+      process: 'Se desarrollo la pagina con React y Vite para velocidad, con Tailwind CSS para un diseño moderno y responsivo. Se usaron banners del clan DX7 y se desplego en Vercel.',
+      features: ['Banners del clan DX7', 'Informacion del clan de Free Fire', 'Video de presentacion', 'Redes sociales del clan', 'Diseño responsivo'],
+      duration: '1 semana',
+      role: 'Frontend Developer',
+    },
+  },
+  {
     title: 'BxZar',
     description: 'Tienda en linea de productos con carrito de compras, filtros por categorias, buscador y diseño moderno responsivo.',
     tags: ['React', 'Tailwind', 'Vite'],
