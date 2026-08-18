@@ -18,6 +18,22 @@ const techIcons = {
 
 const projects = [
   {
+    title: 'Legitix',
+    description: 'Pagina de servicios de hackeo y herramientas digitales de Legitix, con acceso seguro, informacion de servicios y diseños llamativos.',
+    tags: ['React', 'Tailwind', 'Vite'],
+    github: '#',
+    demo: 'https://legitixhack.vercel.app/',
+    images: ['/images/Legitix/LEGITIX-1.png', '/images/Legitix/LEGITIX-2.png', '/images/Legitix/LEGITIX-3.png', '/images/Legitix/LEGITIX-4.png', '/images/Legitix/LEGITIX-5.png'],
+    featured: true,
+    info: {
+      objective: 'Crear la pagina oficial de Legitix mostrando sus servicios, herramientas y acceso a la plataforma.',
+      process: 'Pagina desarrollada con React y Vite, estilos con Tailwind CSS para un diseño moderno y responsivo. Se incluyeron los banners de Legitix y se desplego en Vercel.',
+      features: ['Banners de Legitix', 'Servicios y herramientas', 'Acceso a la plataforma', 'Diseño responsivo'],
+      duration: '1 semana',
+      role: 'Frontend Developer',
+    },
+  },
+  {
     title: 'DX7',
     description: 'Pagina oficial del clan DX7 de Free Fire, con informacion del clan, jugadores destacados, video de presentacion y red social oficial.',
     tags: ['React', 'Tailwind', 'Vite'],
