@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { FaEnvelope, FaPaperPlane, FaMapMarkerAlt, FaPhone, FaGithub, FaLinkedin, FaTwitter, FaCheck, FaSpinner } from 'react-icons/fa'
+import { FaEnvelope, FaPaperPlane, FaMapMarkerAlt, FaPhone, FaGithub, FaLinkedin, FaCheck, FaSpinner } from 'react-icons/fa'
+import { SiDiscord } from 'react-icons/si'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -20,15 +21,15 @@ export default function Contact() {
   }
 
   const contactInfo = [
-    { icon: FaEnvelope, label: 'Email', value: 'brixnndev@email.com', href: 'mailto:brixnndev@email.com' },
+    { icon: FaEnvelope, label: 'Email', value: 'brixnnyt@gmail.com', href: 'mailto:brixnnyt@gmail.com' },
     { icon: FaMapMarkerAlt, label: 'Ubicacion', value: 'Colombia', href: '#' },
-    { icon: FaPhone, label: 'Telefono', value: '+57 XXX XXX XXXX', href: '#' },
+    { icon: FaPhone, label: 'Telefono', value: '+57 310 423 5342', href: 'tel:+573104235342' },
   ]
 
   const socials = [
-    { icon: FaGithub, href: '#', label: 'GitHub', color: 'hover:text-white-text hover:bg-white/10' },
+    { icon: FaGithub, href: 'https://github.com/BrixnnDev', label: 'GitHub', color: 'hover:text-white-text hover:bg-white/10' },
     { icon: FaLinkedin, href: '#', label: 'LinkedIn', color: 'hover:text-[#0077b5] hover:bg-[#0077b5]/10' },
-    { icon: FaTwitter, href: '#', label: 'Twitter', color: 'hover:text-[#1da1f2] hover:bg-[#1da1f2]/10' },
+    { icon: SiDiscord, href: '#', label: 'Discord', color: 'hover:text-[#5865F2] hover:bg-[#5865F2]/10' },
   ]
 
   return (

@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { SiDiscord } from 'react-icons/si'
 
 export default function Footer() {
   return (
@@ -15,9 +16,9 @@ export default function Footer() {
 
         <div className="flex gap-3">
           {[
-            { icon: FaGithub, href: '#' },
+            { icon: FaGithub, href: 'https://github.com/BrixnnDev' },
             { icon: FaLinkedin, href: '#' },
-            { icon: FaTwitter, href: '#' },
+            { icon: SiDiscord, href: '#' },
           ].map((social, i) => (
             <a
               key={i}
